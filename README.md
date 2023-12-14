@@ -26,6 +26,10 @@ I varukorgen kan man visa sina varor. När varukorgen öppnas räknas ett värde
 För att lägga en beställning krävs det att varukorgen läses in, detta sker genom att datorn hämtar infon om kundens varukorg. För att kunna lägga order måste kunden även uppge info. Är kunden redan medlem finns det möjlighet för auto-fill för både leverans- samt betalningsinfo. Då beställningen är laggd finns det en integrad karta som visar vart budet befinner sig. Karta samt auto-fill hämtas från databas.
 Efter beställning ska kunden kunna se bekräftelse samt beräknad leveranstid tillsammans med den integrerade kartan. Kunden kan även visa gammla ordar och se totalpris för alla ordrar. Gamla ordrar samt totalpris hämtas från databas.
 
+* Gällande algorithm design - skapa konto
+
+När gästanvändaren ska lägga beställning uppmanas hen att skapa ett konto. Första tanken var att skicka kunden tillbaka upp i trädet till första "skapa konto" som dyker upp. Men vi anser att det är mer användarvänligt att kundens varukorg sparas och efter skapat konto förs varukorgen över och kunden hamnar i "leveransval", istället för att behöva göra om alla steg.
+
 
 ## Pattern recognition
 
