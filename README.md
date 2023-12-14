@@ -1,5 +1,5 @@
 # Grupparbete-Airbean
-##* Decompisition 
-##* Pattern recognition
-##* Abstraction
-##* Algorithm design
+## * Decompisition 
+## * Pattern recognition
+## * Abstraction
+## * Algorithm design
