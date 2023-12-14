@@ -1,4 +1,6 @@
 # Grupparbete-Airbean
+https://www.figma.com/file/Z2yrqVaPqq1JsG4LYZqIRg/Smooth-surfers%3A-datalogiskt-t%C3%A4nkande?type=whiteboard&node-id=0-1&t=IH7zsXh4L6F0vpHz-0
+
 ## Decompisition
 
 * Gränssnit
@@ -44,7 +46,9 @@ Gränssnitt förekommer över hela websidan, men som syns i decomposition-träde
 Mer info angående pattern recognition finns i våran figjam i den gröna rutan.
  
 ## Abstraction
- 
+
+Vi klurade lite på vad för relevanta saker som finns med i abstraction. (FORTSÄTT FÖRKLARA MOTIVERINGEN TILL VAL I ABSTRACTION)
+
 ## Algorithm design
 
 I våran Algorithm har vi valt att använda oss av ett flow-chart som representerar användarens väg från att hen startar appen tills att beställningen är gjord. Vi utgick ifrån figma skissen, men då den inte är 100% interaktiv tolkade vi fritt hur vägen för användaren ser ut. 
