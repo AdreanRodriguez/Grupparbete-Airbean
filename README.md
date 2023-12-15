@@ -55,7 +55,7 @@ Vi klurade lite på vad för relevanta saker som finns med i abstraction. Vi tol
 
 ### Prisuträkning
 
-En återkommande funktion är att vi behöver räkna ut ett pris. Istället för att skapa olika funktioner för att räkna ut pris använder vi samma funktion med variabler som skiljer funktionerna åt. Självklart använder man denna typ av återanvändning av kod mycket mer en till bara en funktion. Men detta tänk kan appliceras på övriga funktioner också.
+En återkommande funktion är att vi behöver räkna ut ett pris. Istället för att skapa olika funktioner för att räkna ut pris använder vi samma funktion med variabler som skiljer funktionerna åt. Självklart använder man denna typ av återanvändning av kod mycket mer en till bara än funktion. Men detta tänk kan appliceras på övriga funktioner också.
 
 
 ### Karta och produkter
