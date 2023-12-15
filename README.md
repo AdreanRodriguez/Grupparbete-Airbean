@@ -4,7 +4,7 @@ https://www.figma.com/file/Z2yrqVaPqq1JsG4LYZqIRg/Smooth-surfers%3A-datalogiskt-
 
 ## Decompisition
 
-### Gränssnit
+### Gränssnitt
 
 Lång och klurig diskussion angående gränssitt. Vi funderade över ifall layout innefattar all stil så som positionering till färg och typsnitt. Vi valde nuvarande trädstruktur men det är värt att nämna att vi inte är helt eniga i valet av strukturen. Den nuvarande strukturen visar hur positionering har en roll för sig utanför stil, generell positionering. Sedan visar vi även att positionering är beroende av stil genom att använda den igen som subkategori till stiler. Definitionen av "Layout" diskuterades. Vi valde att inte använda det ordet för att göra strukturen tydligare för oss själva.
 
