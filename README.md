@@ -21,7 +21,7 @@ Betalningshantering behandlas av en extern tjänst.
 
 ### Kundhantering
 
-Som kund på AIRBEAN kan du beställa som registrerad medlem alternativt som gäst. Det känns logiskt att en databas är inkopplad oavsätt om användaren är registrerad eller gäst. I övrigt angående profil ingår inlogg och autentisering. Det står inget tydligt om det i figmaskissen men vi gör ett antagande att en användare kan skapa och ta bort konto. Figma skissen visar lite info om inloggad kund, istället för att skriva "orderhistorik" väljer vi profilinfo som täcker orderhistorik samt övrig relevant profilinfo som förekommer.
+Som kund på AIRBEAN kan du beställa som registrerad medlem alternativt som gäst. Det känns logiskt att en databas är inkopplad oavsett om användaren är registrerad eller gäst. I övrigt angående profil ingår inlogg och autentisering. Det står inget tydligt om det i figmaskissen men vi gör ett antagande att en användare kan skapa och ta bort konto. Figma skissen visar lite info om inloggad kund, istället för att skriva "orderhistorik" väljer vi profilinfo som täcker orderhistorik samt övrig relevant profilinfo som förekommer.
 
 
 ### Varukorg
