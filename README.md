@@ -50,7 +50,18 @@ Mer info angående pattern recognition finns i våran figjam i den gröna rutan.
  
 ## Abstraction
 
-Vi klurade lite på vad för relevanta saker som finns med i abstraction. (FORTSÄTT FÖRKLARA MOTIVERINGEN TILL VAL I ABSTRACTION)
+Vi klurade lite på vad för relevanta saker som finns med i abstraction. Vi tolkade abstraction på det sättet att vi använder pattern recognition för att hitta återkommande moment, sen försöker vi skapa en mall som funkar i olika scenarion. 
+
+
+### Prisuträkning
+
+En återkommande funktion är att vi behöver räkna ut ett pris. Istället för att skapa olika funktioner för att räkna ut pris använder vi samma funktion med variabler som skiljer funktionerna åt. Självklart använder man denna typ av återanvändning av kod mycket mer en till bara en funktion. Men detta tänk kan appliceras på övriga funktioner också.
+
+
+### Karta och produkter
+
+Ett annat sätt att tolka abstraction på är de objekt som representeras på sidan. Produkter representeras utav produktid, pris, beskrivning osv. Vi har ingen fysisk produkt innuti appen. Gällande kartan tänker vi även där i liknande banor. Kartan som visas för användaren ger bara relevant info. Andra butiker och sånt som vanligtvist finns på en karta är här onödigt. Användaren behöver bara se adresser, bud och eventuella AIRBEAN lokaler.
+
 
 
 ## Algorithm design
