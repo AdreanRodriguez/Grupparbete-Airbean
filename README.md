@@ -6,7 +6,7 @@ https://www.figma.com/file/Z2yrqVaPqq1JsG4LYZqIRg/Smooth-surfers%3A-datalogiskt-
 
 ### Gränssnit
 
-Lång och klurig diskussion angående gränssitt. Vi funderade över ifall layout innefattar all stil så som positionering till färg och typsnitt. Vi valde nuvarande trädstruktur men det är värt att nämna att vi inte är helt eniga i valet av strukturen. Den nuvarande strukturen visar hur positionering har en roll för sig utanför stil, generell positionering. Sedan visar vi även att positionering är beroende av stil genom att använda den igen som subkategori till stiler. Defenitionen av "Layout" diskuterades. Vi valde att inte använda det ordet för att göra strukturen tydligare för oss själva.
+Lång och klurig diskussion angående gränssitt. Vi funderade över ifall layout innefattar all stil så som positionering till färg och typsnitt. Vi valde nuvarande trädstruktur men det är värt att nämna att vi inte är helt eniga i valet av strukturen. Den nuvarande strukturen visar hur positionering har en roll för sig utanför stil, generell positionering. Sedan visar vi även att positionering är beroende av stil genom att använda den igen som subkategori till stiler. Definitionen av "Layout" diskuterades. Vi valde att inte använda det ordet för att göra strukturen tydligare för oss själva.
 
 
 ### Produkthantering
@@ -32,12 +32,12 @@ I varukorgen kan man visa sina varor. När varukorgen öppnas räknas ett värde
 ### Orderhantering
 
 För att lägga en beställning krävs det att varukorgen läses in, detta sker genom att datorn hämtar infon om kundens varukorg. För att kunna lägga order måste kunden även uppge info. Är kunden redan medlem finns det möjlighet för auto-fill för både leverans- samt betalningsinfo. Då beställningen är lagd finns det en integrad karta som visar vart budet befinner sig. Karta samt auto-fill hämtas från databas.
-Efter beställning ska kunden kunna se bekräftelse samt beräknad leveranstid tillsammans med den integrerade kartan. Kunden kan även visa gammla ordar och se totalpris för alla ordrar. Gamla ordrar samt totalpris hämtas från databas.
+Efter beställning ska kunden kunna se bekräftelse samt beräknad leveranstid tillsammans med den integrerade kartan. Kunden kan även visa gamla ordrar och se totalpris för alla ordrar. Gamla ordrar samt totalpris hämtas från databas.
 
 
 ## Pattern recognition
 
-Vi började med att använda decomposition för att dela in applikationen i mindre delar. Sedan använder vi pattern recognition för att samanställa återkommande moment. 
+Vi började med att använda decomposition för att dela in applikationen i mindre delar. Sedan använder vi pattern recognition för att sammanställa återkommande moment. 
 
 Vi lade till "Formulär" som ett återkommande mönster. Figjam skissen visar att liknande formulär dyker upp då man skapar eller tar bort konto. 
 Vi tolkar det även som att formulär kan dyka upp då man fyller i leverans- samt betal-info. 
@@ -55,7 +55,7 @@ Vi klurade lite på vad för relevanta saker som finns med i abstraction. Vi tol
 
 ### Prisuträkning
 
-En återkommande funktion är att vi behöver räkna ut ett pris. Istället för att skapa olika funktioner för att räkna ut pris använder vi samma funktion med variabler som skiljer funktionerna åt. Självklart använder man denna typ av återanvändning av kod mycket mer en till bara än funktion. Men detta tänk kan appliceras på övriga funktioner också.
+En återkommande funktion är att vi behöver räkna ut ett pris. Istället för att skapa olika funktioner för att räkna ut pris använder vi samma funktion med variabler som skiljer funktionerna åt. Självklart använder man denna typ av återanvändning av kod mycket mer än till bara en funktion. Men detta tänk kan appliceras på övriga funktioner också.
 
 
 ### Karta och produkter
@@ -72,7 +72,7 @@ Till största del rullade denna flow-chart på naturligt utan större hinder. An
 
 Vi visar även med pilar i flow charten hur det är möjligt att "gå tillbaka" till föregående sida när man gör menyval. Vi visar också hur användaren uppmanas att skapa konto eller logga in vid beställning (om kunden inte redan är registrerad). 
 
-Användaren kan fortsätta som gäst eller skapa konto om hen inte redan är inloggad. En gäst får göra sitt val om leveransposition, sedan skriva in sina betalningsuppgifter och  slutligen bekräfta beställning.
+Användaren kan fortsätta som gäst eller skapa konto om hen inte redan är inloggad. En gäst får göra sitt val om leveransposition, sedan skriva in sina betalningsuppgifter och slutligen bekräfta sin beställning.
 
 En inloggad medlem har sin info sparad om hen tidigare angett denna info. Medlemmen får valet att använda sparad adress, eller att välja adress på kartan. Användaren bekräftar sedan beställningen.
 
